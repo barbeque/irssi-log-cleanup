@@ -1,7 +1,7 @@
 {
   "name": "irssi-log-cleanup",
   "main": "./lib/irssi-log-cleanup",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Cleans up irssi logs for pasting into Slack",
   "keywords": [],
   "activationCommands": {
