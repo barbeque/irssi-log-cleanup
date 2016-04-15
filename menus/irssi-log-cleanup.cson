@@ -1,0 +1,25 @@
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Clean up irssi log'
+      'command': 'irssi-log-cleanup:cleanup'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Irssi log cleanup'
+      'submenu': [
+        {
+          'label': 'Clean up log'
+          'command': 'irssi-log-cleanup:cleanup'
+        },
+        {
+          'label': 'Clean for Slack'
+          'command': 'irssi-log-cleanup:clean-for-slack'
+        }
+      ]
+    ]
+  }
+]

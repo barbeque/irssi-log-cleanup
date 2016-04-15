@@ -1,0 +1,19 @@
+{
+  "name": "irssi-log-cleanup",
+  "main": "./lib/irssi-log-cleanup",
+  "version": "0.0.1",
+  "description": "Cleans up irssi logs for pasting into Slack",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "irssi-log-cleanup:cleanup",
+    "atom-workspace": "irssi-log-cleanup:clean-for-slack"
+  },
+  "repository": "https://github.com/atom/irssi-log-cleanup",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
