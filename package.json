@@ -9,7 +9,7 @@
     "atom-workspace": "irssi-log-cleanup:cleanup",
     "atom-workspace": "irssi-log-cleanup:clean-for-slack"
   },
-  "repository": "https://github.com/atom/irssi-log-cleanup",
+  "repository": "https://github.com/barbeque/irssi-log-cleanup",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
